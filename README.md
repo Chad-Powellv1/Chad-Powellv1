@@ -2,7 +2,8 @@
  I'm <strong>Chad Powell</strong> an eager Full Stack Developer. </h3>
 <br>
 
-<p><img align= "center" src="img\bug-fix-fixing-bugs-in-your-code.gif" width="350"/></p>
+<p style="text-align:center"><img src="img\bug-fix-fixing-bugs-in-your-code.gif" width="350" alt="Fixing bugs animation"/>
+</p>
 <hr>
 <br>
 
