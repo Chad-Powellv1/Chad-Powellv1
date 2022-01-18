@@ -1,8 +1,8 @@
-<h3 style= "text-align:center"> Hello 👋,
+<h3 align= "center"> Hello 👋,
  I'm <strong>Chad Powell</strong> an eager Full Stack Developer. </h3>
 <br>
 
-<p style="text-align:center"><img src="img\bug-fix-fixing-bugs-in-your-code.gif" width="350" alt="Fixing bugs animation"/>
+<p align="center"><img src="img\bug-fix-fixing-bugs-in-your-code.gif" width="350" alt="Fixing bugs animation"/>
 </p>
 <hr>
 <br>
