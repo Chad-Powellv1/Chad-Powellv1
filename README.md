@@ -1,5 +1,5 @@
 <h1 align= "center"> Hello 👋,
- I'm <strong>Chad Powell</strong> an eager Full Stack Developer. </h1>
+ I'm <strong>Chad Powell</strong>, an eager Full Stack Developer. </h1>
 <br>
 
 <p align="center"><img src="img\bug-fix-fixing-bugs-in-your-code.gif" width="350" alt="Fixing bugs animation"/>
