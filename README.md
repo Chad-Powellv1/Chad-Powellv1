@@ -1,5 +1,6 @@
 <h1 align= "center"> Hello 👋,
- I'm <strong>Chad Powell</strong>, and on a journey to becoming a \
+ I'm <strong>Chad Powell</strong>, and I'm on a journey to become a   
+ 
  Full Stack Developer. </h1>
 <br>
 
