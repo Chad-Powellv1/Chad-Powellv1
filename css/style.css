@@ -242,7 +242,7 @@ h6 {
 	letter-spacing: 1px;
 }
 
-#home .button {
+.button {
 	display: flex;
 	float: right;
 	background-color: #0b4882;
@@ -258,20 +258,10 @@ h6 {
 	border-radius: 16px;
 }
 
-#home .button:hover {
-	display: flex;
-	float: right;
+.button:hover {
 	background-color: #cc5500;
 	color: white;
 	box-shadow: 2px 3px 3px #0b498280;
-	transition: 0.5s ease-in-out;
-	border: none;
-	padding: 10px 20px;
-	text-align: center;
-	text-decoration: none;
-	margin: 4px 2px;
-	cursor: pointer;
-	border-radius: 16px;
 }
 
 @media (min-width: 1024px) {
