@@ -201,7 +201,7 @@ h6 {
 #home {
 	width: 100%;
 	height: 100vh;
-	background: url('../img/picBg.jpg');
+	background: url('../img/picBg1.jpg');
 	background-size: cover;
 }
 #home:before {
@@ -220,7 +220,7 @@ h6 {
 	min-width: 300px;
 }
 #home h1 {
-	margin: -125px 0 10px -50px;
+	margin: -100px 0 10px -50px;
 	padding: 5px;
 	font-size: 64px;
 	font-weight: 700;
@@ -258,10 +258,17 @@ h6 {
 	border-radius: 16px;
 }
 
-.button:hover {
+#home .button:hover {
 	background-color: #cc5500;
 	color: white;
 	box-shadow: 2px 3px 3px #0b498280;
+	transition: 0.5s ease-in-out;
+	border: none;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	border-radius: 16px;
 }
 
 @media (min-width: 1024px) {
