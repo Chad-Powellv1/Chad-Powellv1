@@ -1,16 +1,19 @@
-/* --- GENERAL --- */
+/* -------------------------------------- */
+/* ---            General            ---  */
+/* -------------------------------------- */
+
 body {
 	font-family: 'Open Sans', sans-serif;
 	color: #272829;
 }
 
 a {
-	color: #0b4882;
+	color: #002B53;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #0b4882;
+	color: #002B53;
 	text-decoration: none;
 }
 
@@ -23,7 +26,11 @@ h6 {
 	font-family: 'Raleway', sans-serif;
 }
 
-/* --- BACK TO TOP BUTTON --- */
+
+/* -------------------------------------- */
+/* ---      BACK TO TOP BUTTON       ---  */
+/* -------------------------------------- */
+
 .back-to-top {
 	position: fixed;
 	visibility: hidden;
@@ -31,7 +38,7 @@ h6 {
 	right: 15px;
 	bottom: 15px;
 	z-index: 996;
-	background: #0b4882;
+	background: #002B53;
 	width: 40px;
 	height: 40px;
 	border-radius: 50px;
@@ -43,7 +50,7 @@ h6 {
 	line-height: 0;
 }
 .back-to-top:hover {
-	background: #0b4882;
+	background: #002B53;
 	color: #fff;
 }
 .back-to-top.active {
@@ -51,7 +58,10 @@ h6 {
 	opacity: 1;
 }
 
-/* --- HEADER --- */
+/* -------------------------------------- */
+/* ---             HEADER            ---  */
+/* -------------------------------------- */
+
 #header {
 	position: fixed;
 	top: 0;
@@ -71,7 +81,7 @@ h6 {
 	margin: 35px auto;
 	display: block;
 	width: 150px;
-	border: 8px solid #2c2f3f;
+	border: 8px solid #006ED5;
 }
 #header .profile h1 {
 	font-size: 28px;
@@ -85,11 +95,11 @@ h6 {
 }
 #header .profile h1 a,
 #header .profile h1 a:hover {
-	color: #0b4882;
+	color: #002B53;
 	text-decoration: none;
 }
 #header .powell {
-	color: #cc5500;
+	color: #F87630;
 }
 #header .profile .social-links a {
 	font-size: 20px;
@@ -107,8 +117,8 @@ h6 {
 	transition: 0.3s;
 }
 #header .profile .social-links a:hover {
-	background: #0b4882;
-	color: #cc5500;
+	background: #002B53;
+	color: #F87640;
 	text-decoration: none;
 }
 
@@ -126,7 +136,11 @@ h6 {
 	}
 }
 
-/* --- NAVIGATION --- */
+
+/* -------------------------------------- */
+/* ---          NAVIGATION           ---  */
+/* -------------------------------------- */
+
 .nav-menu {
 	padding: 30px 0 0 0;
 }
@@ -143,7 +157,7 @@ h6 {
 .nav-menu a:focus {
 	display: flex;
 	align-items: center;
-	color: #0b4882;
+	color: #002B53;
 	padding: 12px 15px;
 	margin-bottom: 8px;
 	transition: 0.3s;
@@ -153,22 +167,26 @@ h6 {
 .nav-menu a:focus i {
 	font-size: 32px;
 	padding-right: 10px;
-	color: #0b4882;
+	color: #002B53;
 }
 .nav-menu a:hover,
 .nav-menu .active,
 .nav-menu .active:focus,
 .nav-menu li:hover > a {
 	text-decoration: none;
-	color: #cc5500;
+	color: #F87630;
 }
 .nav-menu a:hover i,
 .nav-menu .active i,
 .nav-menu .active:focus i,
 .nav-menu li:hover > a i {
-	color: #cc5500;
+	color: #F87630;
 }
-/* --- MOBILE NAVIGATION --- */
+
+/* -------------------------------------- */
+/* ---      MOBILE NAVIGATION        ---  */
+/* -------------------------------------- */
+
 .mobile-nav-toggle {
 	position: fixed;
 	right: 15px;
@@ -178,7 +196,7 @@ h6 {
 	font-size: 24px;
 	transition: all 0.4s;
 	outline: none !important;
-	background-color: #0b4882;
+	background-color: #002B53;
 	color: #fff;
 	width: 40px;
 	height: 40px;
@@ -197,7 +215,10 @@ h6 {
 	left: 0;
 }
 
-/* --- HOME SECTION --- */
+/* -------------------------------------- */
+/* ---        HOME SECTION           ---  */
+/* -------------------------------------- */
+
 #home {
 	width: 100%;
 	height: 100vh;
@@ -234,7 +255,7 @@ h6 {
 
 	font-size: 26px;
 	font-family: 'Poppins', sans-serif;
-	border-bottom: 3px solid #cc5500;
+	border-bottom: 3px solid #F87630;
 }
 #home p span {
 	color: #fff;
@@ -245,10 +266,10 @@ h6 {
 .button {
 	display: flex;
 	float: right;
-	background-color: #0b4882;
+	background-color: #002B53;
 	font-family: 'Poppins', sans-serif;
 	color: white;
-	box-shadow: 2px 3px 3px #cc55006c;
+	box-shadow: 2px 3px 3px #F876306c;
 	border: none;
 	padding: 10px 20px;
 	text-align: center;
@@ -259,9 +280,9 @@ h6 {
 }
 
 #home .button:hover {
-	background-color: #cc5500;
+	background-color: #F87630;
 	color: white;
-	box-shadow: 2px 3px 3px #0b498280;
+	box-shadow: 2px 3px 3px #002B5380;
 	transition: 0.5s ease-in-out;
 	border: none;
 	padding: 10px 20px;
@@ -306,7 +327,7 @@ section {
 	margin-bottom: 20px;
 	padding-bottom: 20px;
 	position: relative;
-	color: #0b4882;
+	color: #002B53;
 }
 .section-title h2::after {
 	content: '';
@@ -314,10 +335,141 @@ section {
 	display: block;
 	width: 50px;
 	height: 3px;
-	background: #0b4882;
+	background: #002B53;
 	bottom: 0;
 	left: 0;
 }
 .section-title p {
 	margin-bottom: 0;
 }
+
+/* -------------------------------------- */
+/* ---        ABOUT SECTION          ---  */
+/* -------------------------------------- */
+
+section {
+	padding: 60px 0;
+	overflow: hidden;
+  }
+  
+  .section-bg {
+	background: #f5f8fd;
+  }
+  
+  .section-title {
+	padding-bottom: 30px;
+  }
+  .section-title h2 {
+	font-size: 32px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	padding-bottom: 5px;
+	position: relative;
+	color: #002B53;
+  }
+  .section-title h2::after {
+	content: "";
+	position: absolute;
+	display: block;
+	width: 90px;
+	height: 3px;
+	background: #21DBd3;
+	bottom: 0;
+	left: 0;
+  }
+  .section-title p {
+	margin-bottom: 45px;
+  }
+  
+/* -------------------------------------- */
+/* ---             ABOUT             ---  */
+/* -------------------------------------- */
+
+  .about .content h3 {
+	font-weight: 700;
+	font-size: 26px;
+	color: #006ED5;
+	margin-bottom: 15px;
+  }
+
+  .about .content ul {
+	list-style: none;
+	padding: 0;
+	margin-top: 10px;
+  }
+
+  .about .content ul li {
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+  }
+
+  .about .content ul strong {
+	margin-right: 10px;
+  }
+
+  .about .content ul i {
+	font-size: 16px;
+	margin-right: 5px;
+	color: #006ED5;
+	line-height: 0;
+	
+  }
+
+  .about .content p:last-child {
+	margin-top: 15px;
+	margin-bottom: 0;
+  }
+
+  .teal {
+	  color: #21DBd3;
+  }
+
+  .experience {
+	padding-bottom: 10px;
+  }
+
+  .experience .count-box {
+	padding: 30px;
+	width: 100%;
+  }
+
+  .experience .count-box i {
+	display: block;
+	font-size: 44px;
+	color: #149ddd;
+	float: left;
+	line-height: 0;
+  }
+
+  .experience .count-box span {
+	font-size: 48px;
+	line-height: 40px;
+	display: block;
+	font-weight: 700;
+	color: #050d18;
+	margin-left: 60px;
+  }
+
+  .experience .count-box p {
+	padding: 15px 0 0 0;
+	margin: 0 0 0 15px;
+	font-family: "Raleway", sans-serif;
+	font-size: 14px;
+	color: #122f57;
+  }
+
+  .experience .count-box a {
+	font-weight: 600;
+	display: block;
+	margin-top: 20px;
+	color: #122f57;
+	font-size: 15px;
+	font-family: "Poppins", sans-serif;
+	transition: ease-in-out 0.3s;
+  }
+
+  .experience .count-box a:hover {
+	color: #1f5297;
+  }
+  
