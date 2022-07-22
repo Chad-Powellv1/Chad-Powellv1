@@ -1,0 +1,88 @@
+.home {
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    &-text-wrapper{
+        display: flex;
+        justify-content: center;
+
+        h1 {
+            color: var(--header-text-color);
+            margin: 0;
+            font-weight: 500;
+            font-size: 8rem;
+            position: relative;
+            white-space: nowrap;
+        }
+
+        p {
+            display: flex;
+            color: #fff;
+            margin-left: 0px;
+            margin-bottom: 20px;
+
+            span {
+              display: flex;
+              color: #fff;
+              padding-bottom: 4px;
+              letter-spacing: 1px;
+              font-size: 2.8rem;
+              font-family: 'Raleway', sans-serif;
+
+            }
+        }
+    }
+
+    &-contact {
+        display: flex;
+        justify-content: center;
+        margin-left: 25px;
+
+        button {
+            color: #f87630;
+            font-size: 1.4rem;
+            font-weight: 400;
+            letter-spacing: 4px;
+            font-family: sans-serif;
+            text-decoration: none;
+            padding: 10px 18px;
+            border: 1px solid #f87630;
+            margin-top: 25px;
+            float: left;
+            animation: fadeInAnimation 1s 1.8s backwards;
+            white-space: nowrap;
+            background-color: #18181850;
+
+            &:hover {
+                background: #f87630;
+                color: #333;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 550px){
+    .home-text-wrapper h1{
+        font-size: 3rem;
+        line-height: 5rem;
+    }
+}
+
+
+@media only screen and (max-width: 551px) and (max-width : 768px) {
+    .home-text-wrapper h1{
+        font-size: 4rem;
+        line-height: 6rem;
+    }
+}
+
+@media only screen and (max-width: 769px) and  (max-width : 990px) {
+    .home-text-wrapper h1{
+        font-size: 6rem;
+        line-height: 8rem;
+    }
+}
