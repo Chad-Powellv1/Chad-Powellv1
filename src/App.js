@@ -6,17 +6,18 @@ import particles from "./services/particles";
 import { Navbar } from "./components/navbar/index";
 import { Home } from "./pages/home/index";
 import { About } from "./pages/about/index";
-import Portfolio from "./pages/portfolio/index";
-import Contact from "./pages/contact/index";
+import { Portfolio } from "./pages/portfolio/index";
+import { Contact } from "./pages/contact/index";
 
 function App() {
   const location = useLocation();
-  console.log(location);
 
+  // Load particles config
   const handleInit = async (main) => {
     await loadFull(main);
   };
 
+  // Only renders particles when on the home page
   const renderParticlesInHomePage = location.pathname === "/";
 
   return (
@@ -25,9 +26,8 @@ function App() {
         <Particles id='particles' options={particles} init={handleInit} />
       )}
 
-      {/* navbar */}
       <Navbar />
-      {/* main page container  */}
+
       <div className='App-main-container'>
         <Routes>
           <Route index path='/' element={<Home />} />

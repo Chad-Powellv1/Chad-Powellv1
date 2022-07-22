@@ -1,0 +1,68 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 50px  20px 25px;
+}
+
+.project .project-wrap {
+	transition: 0.3s;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+
+    img {
+        object-fit: cover;
+        width: 100%;
+    }
+}
+.project .project-wrap::before {
+	content: '';
+	background: rgba(255, 255, 255, 0.5);
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	transition: all ease-in-out 0.3s;
+	z-index: 2;
+	opacity: 0;
+}
+.project .project-wrap .project-links {
+	opacity: 1;
+	left: 0;
+	right: 0;
+	bottom: -60px;
+	z-index: 3;
+	position: absolute;
+	transition: all ease-in-out 0.3s;
+	display: flex;
+	justify-content: center;
+}
+.project .project-wrap .project-links a {
+	color: #f87630;
+	font-size: 28px;
+	text-align: center;
+	background: #002b53;
+	transition: 0.3s;
+	width: 50%;
+}
+.project .project-wrap .project-links a:hover {
+	background: rgba(20, 157, 221, 0.95);
+}
+.project .project-wrap .project-links a + a {
+	border-left: 1px solid #37b3ed;
+}
+
+.project .project-wrap:hover::before {
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 1;
+}
+
+.project .project-wrap:hover .project-links {
+	opacity: 1;
+	bottom: 0;
+}
+

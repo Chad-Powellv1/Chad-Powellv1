@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #181818;
+    background-color: #18181850;
     height: 80px;
     width: 100%;
     display: flex;
@@ -61,13 +61,17 @@
 }
 
 .nav-icon {
-    display: block;
-    cursor: pointer;
-    color: #f87630;
-    padding-right: 20px;
+    display:none;
 }
 
 @media only screen and (max-width: 768px) {
+    .nav-icon {
+        display: block;
+        cursor: pointer;
+        color: #f87630;
+        padding-right: 20px;
+    }
+
     .navbar-container-list {
         display: flex;
         flex-direction: column;
