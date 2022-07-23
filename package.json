@@ -1,7 +1,7 @@
 {
   "name": "chad-powellv1",
-  "version": "0.1.0",
   "homepage": "https://chad-powellv1.github.io/chad-powellv1",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
@@ -32,9 +32,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
