@@ -3,37 +3,34 @@ import AnimatedLetters from '../../services/AnimatedLetters';
 import { Animate } from 'react-simple-animate';
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import {
-    EMAIL_SERVICE,
-    EMAIL_TEMPLATE,
-    EMAIL_USER,
-} from '../../services/constants.js';
 import './styles.scss';
 
 export const Contact = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
-    const refForm = useRef();
+    const form = useRef();
 
     const sendEmail = (e) => {
         e.preventDefault();
 
         emailjs
             .sendForm(
-                EMAIL_SERVICE,
-                EMAIL_TEMPLATE,
-                refForm.current,
-                EMAIL_USER
+                'service_6tkkhi8',
+                'outlook_template',
+                form.current,
+                'DSCTEq0RaemfOIDE8'
             )
             .then(
                 (result) => {
                     alert('Email sent!');
-                    window.location.reload(false)
+                    window.location.reload(true)
                 },
                 () => {
                     alert('Failed to send, please try again.');
 
                 }
             );
+
+
     }
 
     // Used to animate the letters on hover
@@ -71,7 +68,7 @@ export const Contact = () => {
 
 
                 <div className="contact-form">
-                    <form ref={refForm} onSubmit={sendEmail}>
+                    <form ref={form} onSubmit={sendEmail}>
                         <ul>
                             <li className="half">
                                 <input placeholder="Name" type="text" name="name" required />
