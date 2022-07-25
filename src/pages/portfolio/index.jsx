@@ -4,7 +4,6 @@ import restaurant from "../../assets/restaurant.jpg";
 import tictactoe from "../../assets/tictactoe.jpg";
 import weather from "../../assets/weather.jpg";
 import todo from "../../assets/todo.jpg";
-import Loader from 'react-loaders';
 import "./styles.scss";
 
 export const Portfolio = () => {
