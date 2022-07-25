@@ -68,6 +68,7 @@
   .home-text-wrapper h1 {
     font-size: 3rem;
     line-height: 5rem;
+    z-index: -1;
   }
 }
 
@@ -75,6 +76,7 @@
   .home-text-wrapper h1 {
     font-size: 4rem;
     line-height: 6rem;
+    z-index: -1;
   }
 }
 
@@ -82,5 +84,6 @@
   .home-text-wrapper h1 {
     font-size: 6rem;
     line-height: 8rem;
+    z-index: -1;
   }
 }

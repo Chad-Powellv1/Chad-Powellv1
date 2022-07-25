@@ -43,3 +43,16 @@ $primary-color: #f87630;
     }
   }
 }
+
+@media only screen and (max-width: 550px) {
+  .text-zone {
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    vertical-align: middle;
+    display: table-cell;
+    max-height: 90%;
+  }
+}

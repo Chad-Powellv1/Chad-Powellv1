@@ -4,13 +4,15 @@ import restaurant from "../../assets/restaurant.jpg";
 import tictactoe from "../../assets/tictactoe.jpg";
 import weather from "../../assets/weather.jpg";
 import todo from "../../assets/todo.jpg";
+import {
+    WEATHER_APP,
+    TIC_TAC_TOE,
+    TODO_APP,
+    RESTAURANT_APP,
+} from "../../services/constants";
 import "./styles.scss";
 
 export const Portfolio = () => {
-    let weatherApp = "https://chad-powellv1.github.io/weather-app/";
-    let gameApp = "https://chad-powellv1.github.io/react-tictactoe/";
-    let todoApp = "https://chad-powellv1.github.io/react-todo/";
-    let restaurantApp = "https://chad-powellv1.github.io/react-restaurant/";
 
     return (
         <>
@@ -22,7 +24,7 @@ export const Portfolio = () => {
                 >
                     <div className='col-md-6 project-item filter-app'>
                         <div className='project-wrap'>
-                            <img src={weather} className='img-fluid' alt='Weather App' height="50%" />
+                            <img src={weather} className='img-fluid' alt='Weather App' />
                             <div className='project-links'>
                                 <a
                                     href={weather}
@@ -33,7 +35,7 @@ export const Portfolio = () => {
                                         <BsPlus />
                                     </i>
                                 </a>
-                                <a href={weatherApp} title='More Details'>
+                                <a href={WEATHER_APP} title='More Details'>
                                     <i className='bx'>
                                         <BsLink45Deg />
                                     </i>
@@ -55,7 +57,7 @@ export const Portfolio = () => {
                                         <BsPlus />
                                     </i>
                                 </a>
-                                <a href={gameApp} title='More Details'>
+                                <a href={TIC_TAC_TOE} title='More Details'>
                                     <i className='bx'>
                                         <BsLink45Deg />
                                     </i>
@@ -76,7 +78,7 @@ export const Portfolio = () => {
                                         <BsPlus />
                                     </i>
                                 </a>
-                                <a href={todoApp} title='More Details'>
+                                <a href={TODO_APP} title='More Details'>
                                     <i className='bx'>
                                         <BsLink45Deg />
                                     </i>
@@ -102,7 +104,7 @@ export const Portfolio = () => {
                                         <BsPlus />
                                     </i>
                                 </a>
-                                <a href={restaurantApp} title='More Details'>
+                                <a href={RESTAURANT_APP} title='More Details'>
                                     <i className='bx'>
                                         <BsLink45Deg />
                                     </i>

@@ -126,3 +126,66 @@
     }
   }
 }
+
+@media only screen and (max-width: 550px) {
+  .contact h3 {
+    margin-bottom: 20px;
+    width: 165px;
+  }
+
+  .text-zone h1 {
+    font-size: 4rem;
+    line-height: 5rem;
+    margin-top: 115px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 551px) and (max-width: 768px) {
+  .contact h3 {
+    margin-bottom: 20px;
+    width: 165px;
+  }
+
+  .text-zone h1 {
+    font-size: 4rem;
+    line-height: 5rem;
+    margin-top: 128px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-form li input {
+    width: 300px;
+    margin-top: 2px;
+  }
+
+  .contact-form li textarea {
+    width: 300px;
+    margin-top: 2px;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .contact h3 {
+    margin-bottom: 35px;
+    width: 500px;
+  }
+
+  .text-zone h1 {
+    font-size: 6rem;
+    line-height: 5rem;
+    margin-top: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-form li input {
+    width: 500px;
+  }
+
+  .contact-form li textarea {
+    width: 500px;
+  }
+}
