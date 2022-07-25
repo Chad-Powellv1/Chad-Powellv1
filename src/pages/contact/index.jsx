@@ -9,15 +9,16 @@ export const Contact = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
     const form = useRef();
 
+    // Handles the emailjs send email function
     const sendEmail = (e) => {
         e.preventDefault();
 
         emailjs
             .sendForm(
-                'service_6tkkhi8',
-                'outlook_template',
+                "service_6tkkhi8",
+                "outlook_template",
                 form.current,
-                'DSCTEq0RaemfOIDE8'
+                "DSCTEq0RaemfOIDE8"
             )
             .then(
                 (result) => {
@@ -122,5 +123,3 @@ export const Contact = () => {
         </section>
     );
 }
-
-

@@ -10,11 +10,14 @@ export const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
     const navigate = useNavigate();
 
+    const nameArray = [' ', 'C', 'h', 'a', 'd'];
 
+    // Controls navigation to the Contact page
     const handleNavigate = () => {
         navigate('/contact');
     }
 
+    // Controls the typewriter animation
     const { text } = useTypewriter({
         words: ["A Full Stack Web Developer",
             "An Experienced Leader",
@@ -27,14 +30,12 @@ export const Home = () => {
         delaySpeed: 3000,
     });
 
+    // Controls the animated letters on hover
     useEffect(() => {
         setTimeout(() => {
             setLetterClass('text-animate-hover')
         }, 4000)
     }, [])
-
-    const nameArray = [' ', 'C', 'h', 'a', 'd']
-
 
     return (
         <section id="home" className='home'>
@@ -82,5 +83,5 @@ export const Home = () => {
                 </div>
             </div>
         </section >
-    )
-}
+    );
+};

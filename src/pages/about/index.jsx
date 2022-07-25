@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react';
 import {
     faPython,
     faCss3,
@@ -15,8 +15,7 @@ import "./styles.scss";
 export const About = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
 
-
-
+    // Controls the animated letters on hover
     useEffect(() => {
         const time = setTimeout(() => {
             setLetterClass('text-animate-hover')
