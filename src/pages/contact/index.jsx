@@ -55,9 +55,9 @@ export const Contact = () => {
                 <Animate
                     play
                     duration={1}
-                    delay={1.5}
+                    delay={1.2}
                     start={{
-                        transform: 'translateX(-500px)',
+                        transform: 'translateX(-700px)',
                     }}
                     end={{
                         transform: 'translateX(0px)',
@@ -99,7 +99,7 @@ export const Contact = () => {
                             </li>
                             <Animate
                                 play
-                                duration={1.5}
+                                duration={1}
                                 delay={1.2}
                                 start={{
                                     opacity: 0,

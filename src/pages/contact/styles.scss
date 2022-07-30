@@ -2,6 +2,7 @@
   padding: 20px;
 
   h3 {
+    margin-top: 20px;
     margin-bottom: 20px;
   }
 }
@@ -61,7 +62,7 @@
       position: relative;
       background: transparent;
       color: var(--sub-text-color);
-      animation: fadeIn 6s ease-in;
+      animation: fadeIn 3s ease-in;
     }
 
     textarea {
@@ -75,7 +76,7 @@
       position: relative;
       background: transparent;
       color: var(--sub-text-color);
-      animation: fadeIn 6s ease-in;
+      animation: fadeIn 3s ease-in;
     }
 
     input::placeholder {
@@ -116,7 +117,7 @@
     border: 1px solid var(--header-text-color);
     margin-top: 25px;
     float: left;
-    animation: fadeInAnimation 1s 1.8s backwards;
+    animation: fadeInAnimation 1s 1.2s backwards;
     white-space: nowrap;
     background-color: #18181850;
 
