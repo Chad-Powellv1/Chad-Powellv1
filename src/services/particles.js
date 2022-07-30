@@ -41,7 +41,7 @@ export default {
         type: "circle",
       },
       onHover: {
-        enable: false,
+        enable: true,
         mode: "trail",
         parallax: {
           enable: false,
