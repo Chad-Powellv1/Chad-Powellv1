@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/chad-powellv1/static/css/main.abd831dd.css",
+    "main.css": "/chad-powellv1/static/css/main.314a8fdc.css",
     "main.js": "/chad-powellv1/static/js/main.2e3c92e8.js",
     "static/media/weather.jpg": "/chad-powellv1/static/media/weather.1d7098c5daa45174aab6.jpg",
     "static/media/todo.jpg": "/chad-powellv1/static/media/todo.2eedcde28246a23c6afc.jpg",
@@ -8,11 +8,11 @@
     "static/media/restaurant.jpg": "/chad-powellv1/static/media/restaurant.c7c4ccd11b9e2e7953e7.jpg",
     "static/media/logo.png": "/chad-powellv1/static/media/logo.b773160c58b52d38d26f.png",
     "index.html": "/chad-powellv1/index.html",
-    "main.abd831dd.css.map": "/chad-powellv1/static/css/main.abd831dd.css.map",
+    "main.314a8fdc.css.map": "/chad-powellv1/static/css/main.314a8fdc.css.map",
     "main.2e3c92e8.js.map": "/chad-powellv1/static/js/main.2e3c92e8.js.map"
   },
   "entrypoints": [
-    "static/css/main.abd831dd.css",
+    "static/css/main.314a8fdc.css",
     "static/js/main.2e3c92e8.js"
   ]
 }
